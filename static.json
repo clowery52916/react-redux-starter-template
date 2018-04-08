@@ -1,0 +1,11 @@
+{
+    "root": "build/",
+    "clean_urls": false,
+    "routes": {
+        "/**": "index.html"
+    }
+}
+
+git add .
+git commit -m “Start with create-react-app”
+git push heroku master
